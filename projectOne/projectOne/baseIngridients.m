@@ -26,4 +26,11 @@
    return self;
 }
 
+// calculation method
+-(void)calculateBlendingTime
+{
+   //no calculation yet
+   NSLog(@"This drink needs to blend in %i minutes", blendingTime);
+}
+
 @end

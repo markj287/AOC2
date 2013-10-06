@@ -13,21 +13,21 @@
 +(baseIngridients *)createNewDrink: (int)fruitDrink
 {
    
-   if (petAnimal == CAT)
+   if (fruitDrink == STRAWBERRYBANANA)
    {
-      return [[petCat alloc]init];
+      return [[strawberryBanana alloc]init];
    }
    
  
-   else if (petAnimal == DOG)
+   else if (fruitDrink == MANGOPINAPPLE)
    {
-      return [[petDog alloc]init];
+      return [[mangoPinapple alloc]init];
    }
    
 
-   else if (petAnimal == BIRD)
+   else if (fruitDrink == BIGCHERRY)
    {
-      return [[petBird alloc]init];
+      return [[bigCherry alloc]init];
    }
    else return nil;
 
