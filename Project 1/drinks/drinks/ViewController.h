@@ -7,7 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DrinkFactory.h"
 
 @interface ViewController : UIViewController
+
+{
+   UILabel *blendedDrinkLabel;
+   UILabel *blendedDrinkInfo;
+   UILabel *hotDrinkLabel;
+   UILabel *hotDrinkInfo;
+   UILabel *coldDrinkLabel;
+   UILabel *coldDrinkInfo;
+   NSString *tempString;
+   BaseDrink *blendedDrink;
+   BaseDrink *coldDrink;
+}
 
 @end
