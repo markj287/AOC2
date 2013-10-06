@@ -22,6 +22,10 @@
 		8F12FAEB18020EE000CE3E8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F12FAE918020EE000CE3E8C /* InfoPlist.strings */; };
 		8F12FAED18020EE000CE3E8C /* drinksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F12FAEC18020EE000CE3E8C /* drinksTests.m */; };
 		8F12FAF818020F5C00CE3E8C /* DrinkFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F12FAF718020F5C00CE3E8C /* DrinkFactory.m */; };
+		8F12FAFB18020FC700CE3E8C /* BaseDrink.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F12FAFA18020FC700CE3E8C /* BaseDrink.m */; };
+		8F12FAFE1802101C00CE3E8C /* BlendedDrink.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F12FAFD1802101C00CE3E8C /* BlendedDrink.m */; };
+		8F12FB011802102A00CE3E8C /* HotDrink.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F12FB001802102A00CE3E8C /* HotDrink.m */; };
+		8F12FB041802103800CE3E8C /* ColdDrink.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F12FB031802103800CE3E8C /* ColdDrink.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +60,14 @@
 		8F12FAEC18020EE000CE3E8C /* drinksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = drinksTests.m; sourceTree = "<group>"; };
 		8F12FAF618020F5C00CE3E8C /* DrinkFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrinkFactory.h; sourceTree = "<group>"; };
 		8F12FAF718020F5C00CE3E8C /* DrinkFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrinkFactory.m; sourceTree = "<group>"; };
+		8F12FAF918020FC700CE3E8C /* BaseDrink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDrink.h; sourceTree = "<group>"; };
+		8F12FAFA18020FC700CE3E8C /* BaseDrink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDrink.m; sourceTree = "<group>"; };
+		8F12FAFC1802101C00CE3E8C /* BlendedDrink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlendedDrink.h; sourceTree = "<group>"; };
+		8F12FAFD1802101C00CE3E8C /* BlendedDrink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlendedDrink.m; sourceTree = "<group>"; };
+		8F12FAFF1802102A00CE3E8C /* HotDrink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotDrink.h; sourceTree = "<group>"; };
+		8F12FB001802102A00CE3E8C /* HotDrink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotDrink.m; sourceTree = "<group>"; };
+		8F12FB021802103800CE3E8C /* ColdDrink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColdDrink.h; sourceTree = "<group>"; };
+		8F12FB031802103800CE3E8C /* ColdDrink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColdDrink.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +136,14 @@
 				8F12FAC818020EE000CE3E8C /* Supporting Files */,
 				8F12FAF618020F5C00CE3E8C /* DrinkFactory.h */,
 				8F12FAF718020F5C00CE3E8C /* DrinkFactory.m */,
+				8F12FAF918020FC700CE3E8C /* BaseDrink.h */,
+				8F12FAFA18020FC700CE3E8C /* BaseDrink.m */,
+				8F12FAFC1802101C00CE3E8C /* BlendedDrink.h */,
+				8F12FAFD1802101C00CE3E8C /* BlendedDrink.m */,
+				8F12FAFF1802102A00CE3E8C /* HotDrink.h */,
+				8F12FB001802102A00CE3E8C /* HotDrink.m */,
+				8F12FB021802103800CE3E8C /* ColdDrink.h */,
+				8F12FB031802103800CE3E8C /* ColdDrink.m */,
 			);
 			path = drinks;
 			sourceTree = "<group>";
@@ -254,10 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F12FB041802103800CE3E8C /* ColdDrink.m in Sources */,
 				8F12FAD818020EE000CE3E8C /* ViewController.m in Sources */,
+				8F12FAFB18020FC700CE3E8C /* BaseDrink.m in Sources */,
 				8F12FAF818020F5C00CE3E8C /* DrinkFactory.m in Sources */,
+				8F12FAFE1802101C00CE3E8C /* BlendedDrink.m in Sources */,
 				8F12FAD218020EE000CE3E8C /* AppDelegate.m in Sources */,
 				8F12FACE18020EE000CE3E8C /* main.m in Sources */,
+				8F12FB011802102A00CE3E8C /* HotDrink.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
