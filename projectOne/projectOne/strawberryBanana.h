@@ -10,4 +10,10 @@
 
 @interface strawberryBanana : baseIngridients
 
+{
+   
+}
+
+// data members 
+
 @end
