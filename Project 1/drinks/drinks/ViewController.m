@@ -40,7 +40,7 @@
    {
       blendedDrink = [drinkOne getDrink:0];
    
-      tempString = [NSString stringWithFormat:@"You have a %@ drink. It will take %d minutes to make.", [blendedDrink whichDrink],[blendedDrink howMuchTime]];
+      tempString = [NSString stringWithFormat:@"This is a %@ drink. It takes %d minutes to make.", [blendedDrink whichDrink],[blendedDrink howMuchTime]];
       blendedDrinkInfo = [[UILabel alloc] initWithFrame:CGRectMake(100.0f, 50.0f, 220.0f, 50.0f)];
    
       if (blendedDrinkInfo != nil)
@@ -72,7 +72,7 @@
    {
       BaseDrink *hotDrink = [drinkTwo getDrink:1];
    
-      tempString = [NSString stringWithFormat:@"You have a %@ drink. It will take %d minutes to make.", [hotDrink whichDrink],[hotDrink howMuchTime]];
+      tempString = [NSString stringWithFormat:@"This is a %@ drink. It takes %d minutes to make.", [hotDrink whichDrink],[hotDrink howMuchTime]];
       hotDrinkInfo = [[UILabel alloc] initWithFrame:CGRectMake(100.0f, 125.0f, 220.0f, 50.0f)];
    
       if (hotDrinkInfo != nil)
@@ -103,7 +103,7 @@
    {
       coldDrink = [drinkThree getDrink:2];
    
-      tempString = [NSString stringWithFormat:@"You have a %@ drink. It will take %d minutes to make.", [coldDrink whichDrink],[coldDrink howMuchTime]];
+      tempString = [NSString stringWithFormat:@"This is a %@ drink. It takes %d minutes to make.", [coldDrink whichDrink],[coldDrink howMuchTime]];
       coldDrinkInfo = [[UILabel alloc] initWithFrame:CGRectMake(100.0f, 200.0f, 220.0f, 50.0f)];
    
       if (coldDrinkInfo != nil)
