@@ -21,6 +21,11 @@
 		8F8226FE1800E03600F4BC8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8226E01800E03500F4BC8F /* UIKit.framework */; };
 		8F8227061800E03600F4BC8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F8227041800E03600F4BC8F /* InfoPlist.strings */; };
 		8F8227081800E03600F4BC8F /* projectOneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8227071800E03600F4BC8F /* projectOneTests.m */; };
+		8F8227191800EED000F4BC8F /* fruitDrinks.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8227181800EED000F4BC8F /* fruitDrinks.m */; };
+		8F82271C1800EEFA00F4BC8F /* baseIngridients.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82271B1800EEFA00F4BC8F /* baseIngridients.m */; };
+		8F82271F1800EFB800F4BC8F /* strawberryBanana.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82271E1800EFB800F4BC8F /* strawberryBanana.m */; };
+		8F8227221800F00500F4BC8F /* mangoPinapple.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8227211800F00500F4BC8F /* mangoPinapple.m */; };
+		8F8227251800F07800F4BC8F /* bigCherry.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8227241800F07800F4BC8F /* bigCherry.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,16 @@
 		8F8227031800E03600F4BC8F /* projectOneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "projectOneTests-Info.plist"; sourceTree = "<group>"; };
 		8F8227051800E03600F4BC8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8F8227071800E03600F4BC8F /* projectOneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = projectOneTests.m; sourceTree = "<group>"; };
+		8F8227171800EED000F4BC8F /* fruitDrinks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fruitDrinks.h; sourceTree = "<group>"; };
+		8F8227181800EED000F4BC8F /* fruitDrinks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fruitDrinks.m; sourceTree = "<group>"; };
+		8F82271A1800EEFA00F4BC8F /* baseIngridients.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseIngridients.h; sourceTree = "<group>"; };
+		8F82271B1800EEFA00F4BC8F /* baseIngridients.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = baseIngridients.m; sourceTree = "<group>"; };
+		8F82271D1800EFB800F4BC8F /* strawberryBanana.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strawberryBanana.h; sourceTree = "<group>"; };
+		8F82271E1800EFB800F4BC8F /* strawberryBanana.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = strawberryBanana.m; sourceTree = "<group>"; };
+		8F8227201800F00500F4BC8F /* mangoPinapple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mangoPinapple.h; sourceTree = "<group>"; };
+		8F8227211800F00500F4BC8F /* mangoPinapple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mangoPinapple.m; sourceTree = "<group>"; };
+		8F8227231800F07800F4BC8F /* bigCherry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bigCherry.h; sourceTree = "<group>"; };
+		8F8227241800F07800F4BC8F /* bigCherry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bigCherry.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +134,16 @@
 				8F8226F21800E03500F4BC8F /* ViewController.m */,
 				8F8226F41800E03500F4BC8F /* Images.xcassets */,
 				8F8226E31800E03500F4BC8F /* Supporting Files */,
+				8F8227171800EED000F4BC8F /* fruitDrinks.h */,
+				8F8227181800EED000F4BC8F /* fruitDrinks.m */,
+				8F82271A1800EEFA00F4BC8F /* baseIngridients.h */,
+				8F82271B1800EEFA00F4BC8F /* baseIngridients.m */,
+				8F82271D1800EFB800F4BC8F /* strawberryBanana.h */,
+				8F82271E1800EFB800F4BC8F /* strawberryBanana.m */,
+				8F8227201800F00500F4BC8F /* mangoPinapple.h */,
+				8F8227211800F00500F4BC8F /* mangoPinapple.m */,
+				8F8227231800F07800F4BC8F /* bigCherry.h */,
+				8F8227241800F07800F4BC8F /* bigCherry.m */,
 			);
 			path = projectOne;
 			sourceTree = "<group>";
@@ -250,8 +275,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F8226F31800E03500F4BC8F /* ViewController.m in Sources */,
+				8F8227191800EED000F4BC8F /* fruitDrinks.m in Sources */,
 				8F8226ED1800E03500F4BC8F /* AppDelegate.m in Sources */,
+				8F82271F1800EFB800F4BC8F /* strawberryBanana.m in Sources */,
 				8F8226E91800E03500F4BC8F /* main.m in Sources */,
+				8F8227251800F07800F4BC8F /* bigCherry.m in Sources */,
+				8F82271C1800EEFA00F4BC8F /* baseIngridients.m in Sources */,
+				8F8227221800F00500F4BC8F /* mangoPinapple.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
