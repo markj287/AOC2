@@ -7,21 +7,9 @@
 //
 
 #import "baseDrink.h"
+#import "hotDrink.h"
 
 @interface hotDrink : baseDrink
 
--(id)init;
-{
-   if (self =  [super init])
-      {
-      
-      
-      [self changeDrink: @"Cold"];
-      [self changeIce: YES];
-      [self changeTime: 1];
-      
-      }
-   return self;
-}
 
 @end

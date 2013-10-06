@@ -7,6 +7,7 @@
 //
 
 #import "hotDrink.h"
+#import "baseDrink.h"
 
 @implementation hotDrink
 

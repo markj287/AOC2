@@ -7,7 +7,22 @@
 //
 
 #import "coldDrink.h"
+#import "baseDrink.h"
+#import "drinkFactory.h"
 
 @implementation coldDrink
+
+-(id)init
+{
+   if (self =  [super init])
+      {
+      
+         [self changeDrink: @"Cold"];
+         [self changeIce: YES];
+         [self changeTime: 5];
+      
+      }
+   return self;
+}
 
 @end

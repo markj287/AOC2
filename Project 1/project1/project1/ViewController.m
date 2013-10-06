@@ -36,9 +36,9 @@
    if (drinkOne != nil)
       {
       
-      smothieDrink = [drinkOne getDrink:0];
+         //  smothieDrink = [drinkOne getDrink:0];
       
-      tempString = [NSString stringWithFormat:@"You have a %@ drink. It will take %d minutes to make.", [smothieDrink whichDrink],[smothieDrink howMuchTime]];
+         // tempString = [NSString stringWithFormat:@"You have a %@ drink. It will take %d minutes to make.", [smothieDrink whichDrink],[smothieDrink howMuchTime]];
       smothieDrinkInfo = [[UILabel alloc] initWithFrame:CGRectMake(100.0f, 50.0f, 220.0f, 50.0f)];
       if (smothieDrinkInfo != nil)
          {

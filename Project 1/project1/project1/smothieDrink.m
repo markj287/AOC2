@@ -15,9 +15,9 @@
    self =  [super init];
    if (self != nil)
       {
-      [self changeDrink: @"Blended"];
-      [self changeIce : YES];
-      [self changeTime : 5];
+         [self changeDrink: @"Smothie"];
+         [self changeIce : YES];
+         [self changeTime : 5];
       }
    return self;
 }
