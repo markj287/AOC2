@@ -10,4 +10,27 @@
 
 @implementation fruitDrinks
 
++(baseIngridients *)createNewDrink: (int)fruitDrink
+{
+   
+   if (petAnimal == CAT)
+   {
+      return [[petCat alloc]init];
+   }
+   
+ 
+   else if (petAnimal == DOG)
+   {
+      return [[petDog alloc]init];
+   }
+   
+
+   else if (petAnimal == BIRD)
+   {
+      return [[petBird alloc]init];
+   }
+   else return nil;
+
+}
+
 @end

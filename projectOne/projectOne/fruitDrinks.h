@@ -14,4 +14,7 @@
 
 @interface fruitDrinks : NSObject
 
+// static class method
++(baseIngridients *)createNewDrink: (int)fruitDrink;
+
 @end

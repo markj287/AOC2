@@ -10,4 +10,17 @@
 
 @interface baseIngridients : NSObject
 
+{
+   int ingridientsEnum;
+}
+
+typedef enum
+{
+   STRAWBERRYBANANA,
+   MANGOPINAPPLE,
+   BIGCHERRY
+} ingridientsEnum;
+
+@property
+
 @end
