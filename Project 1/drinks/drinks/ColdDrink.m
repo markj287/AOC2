@@ -16,7 +16,7 @@
       {
          [self changeDrink: @"Cold"];
          [self changeIce: YES];
-         [self changeTime: 1];
+         [self changeTime: 5];
       }
    return self;
 }

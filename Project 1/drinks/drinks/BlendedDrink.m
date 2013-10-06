@@ -19,7 +19,7 @@
       {
          [self changeDrink: @"Blended"];
          [self changeIce : YES];
-         [self changeTime : 5];
+         [self changeTime : 8];
       }
    return self;
 }
