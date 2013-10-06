@@ -11,15 +11,15 @@
 @interface ViewController : UIViewController
 
 {
-   UILabel *blendedDrinkLabel;
-   UILabel *blendedDrinkInfo;
+   UILabel *smothieDrinkLabel;
+   UILabel *smothieDrinkInfo;
    UILabel *hotDrinkLabel;
    UILabel *hotDrinkInfo;
    UILabel *coldDrinkLabel;
    UILabel *coldDrinkInfo;
    NSString *tempString;
-   BaseDrink *blendedDrink;
-   BaseDrink *coldDrink;
+   baseDrink *smothieDrink;
+   baseDrink *coldDrink;
 }
 
 @end

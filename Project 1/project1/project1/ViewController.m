@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "DrinkFactory.h"
+#import "drinkFactory.h"
 
 @interface ViewController ()
 
@@ -23,31 +23,31 @@
       //Background color
    self.view.backgroundColor = [UIColor blackColor];
       //create blended drink label and text
-   blendedDrinkLabel = [[UILabel alloc] initWithFrame:CGRectMake(0.0f, 50.0f, 100.0f, 25.0f)];
-   if (blendedDrinkLabel != nil)
+   smothieDrinkLabel = [[UILabel alloc] initWithFrame:CGRectMake(0.0f, 50.0f, 100.0f, 25.0f)];
+   if (smothieDrinkLabel != nil)
       {
-      blendedDrinkLabel.backgroundColor = [UIColor blackColor];
-      blendedDrinkLabel.text = @"Drink one:";
-      blendedDrinkLabel.textAlignment = UITextAlignmentLeft;
-      blendedDrinkLabel.textColor = [UIColor whiteColor];
-      [self.view addSubview:blendedDrinkLabel];
+      smothieDrinkLabel.backgroundColor = [UIColor blackColor];
+      smothieDrinkLabel.text = @"Drink one:";
+      smothieDrinkLabel.textAlignment = UITextAlignmentLeft;
+      smothieDrinkLabel.textColor = [UIColor whiteColor];
+      [self.view addSubview:smothieDrinkLabel];
       }
-   DrinkFactory *drinkOne = [[DrinkFactory alloc] init];
+   drinkFactory *drinkOne = [[drinkFactory alloc] init];
    if (drinkOne != nil)
       {
       
-      blendedDrink = [drinkOne getDrink:0];
+      smothieDrink = [drinkOne getDrink:0];
       
-      tempString = [NSString stringWithFormat:@"You have a %@ drink. It will take %d minutes to make.", [blendedDrink whichDrink],[blendedDrink howMuchTime]];
-      blendedDrinkInfo = [[UILabel alloc] initWithFrame:CGRectMake(100.0f, 50.0f, 220.0f, 50.0f)];
-      if (blendedDrinkInfo != nil)
+      tempString = [NSString stringWithFormat:@"You have a %@ drink. It will take %d minutes to make.", [smothieDrink whichDrink],[smothieDrink howMuchTime]];
+      smothieDrinkInfo = [[UILabel alloc] initWithFrame:CGRectMake(100.0f, 50.0f, 220.0f, 50.0f)];
+      if (smothieDrinkInfo != nil)
          {
-         blendedDrinkInfo.backgroundColor = [UIColor blackColor];
-         blendedDrinkInfo.textAlignment = UITextAlignmentLeft;
-         blendedDrinkInfo.textColor = [UIColor whiteColor];
-         blendedDrinkInfo.numberOfLines = 2;
-         blendedDrinkInfo.text = tempString;
-         [self.view addSubview:blendedDrinkInfo];
+         smothieDrinkInfo.backgroundColor = [UIColor blackColor];
+         smothieDrinkInfo.textAlignment = UITextAlignmentLeft;
+         smothieDrinkInfo.textColor = [UIColor whiteColor];
+         smothieDrinkInfo.numberOfLines = 2;
+         smothieDrinkInfo.text = tempString;
+         [self.view addSubview:smothieDrinkInfo];
          }
       
       
@@ -63,11 +63,11 @@
       hotDrinkLabel.textColor = [UIColor whiteColor];
       [self.view addSubview:hotDrinkLabel];
       }
-   DrinkFactory *drinkTwo = [[DrinkFactory alloc] init];
+   drinkFactory *drinkTwo = [[drinkFactory alloc] init];
    if (drinkTwo != nil)
       {
       
-      BaseDrink *hotDrink = [drinkTwo getDrink:1];
+      baseDrink *hotDrink = [drinkTwo getDrink:1];
       
       tempString = [NSString stringWithFormat:@"You have a %@ drink. It will take %d minutes to make.", [hotDrink whichDrink],[hotDrink howMuchTime]];
       hotDrinkInfo = [[UILabel alloc] initWithFrame:CGRectMake(100.0f, 125.0f, 220.0f, 50.0f)];
@@ -95,7 +95,7 @@
       coldDrinkLabel.textColor = [UIColor whiteColor];
       [self.view addSubview:coldDrinkLabel];
       }
-   DrinkFactory *drinkThree = [[DrinkFactory alloc] init];
+   drinkFactory *drinkThree = [[drinkFactory alloc] init];
    if (drinkThree != nil)
       {
       

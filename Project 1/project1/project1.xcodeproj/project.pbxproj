@@ -22,6 +22,10 @@
 		8F82275C1801080E00F4BC8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F82275A1801080E00F4BC8F /* InfoPlist.strings */; };
 		8F82275E1801080E00F4BC8F /* project1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82275D1801080E00F4BC8F /* project1Tests.m */; };
 		8F8227691801095600F4BC8F /* drinkFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8227681801095600F4BC8F /* drinkFactory.m */; };
+		8F82276C18010A4B00F4BC8F /* baseDrink.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82276B18010A4B00F4BC8F /* baseDrink.m */; };
+		8F82276F18010AF700F4BC8F /* smothieDrink.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82276E18010AF700F4BC8F /* smothieDrink.m */; };
+		8F82277218010B0600F4BC8F /* coldDrink.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82277118010B0600F4BC8F /* coldDrink.m */; };
+		8F82277518010B1500F4BC8F /* hotDrink.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82277418010B1500F4BC8F /* hotDrink.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +50,8 @@
 		8F8227411801080E00F4BC8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8F8227421801080E00F4BC8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8F8227451801080E00F4BC8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8F8227471801080E00F4BC8F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8F8227481801080E00F4BC8F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8F8227471801080E00F4BC8F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8F8227481801080E00F4BC8F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		8F82274A1801080E00F4BC8F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8F8227501801080E00F4BC8F /* project1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = project1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F8227511801080E00F4BC8F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -55,7 +59,15 @@
 		8F82275B1801080E00F4BC8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8F82275D1801080E00F4BC8F /* project1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = project1Tests.m; sourceTree = "<group>"; };
 		8F8227671801095600F4BC8F /* drinkFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drinkFactory.h; sourceTree = "<group>"; };
-		8F8227681801095600F4BC8F /* drinkFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = drinkFactory.m; sourceTree = "<group>"; };
+		8F8227681801095600F4BC8F /* drinkFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = drinkFactory.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8F82276A18010A4B00F4BC8F /* baseDrink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseDrink.h; sourceTree = "<group>"; };
+		8F82276B18010A4B00F4BC8F /* baseDrink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = baseDrink.m; sourceTree = "<group>"; };
+		8F82276D18010AF700F4BC8F /* smothieDrink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smothieDrink.h; sourceTree = "<group>"; };
+		8F82276E18010AF700F4BC8F /* smothieDrink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = smothieDrink.m; sourceTree = "<group>"; };
+		8F82277018010B0600F4BC8F /* coldDrink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coldDrink.h; sourceTree = "<group>"; };
+		8F82277118010B0600F4BC8F /* coldDrink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = coldDrink.m; sourceTree = "<group>"; };
+		8F82277318010B1500F4BC8F /* hotDrink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hotDrink.h; sourceTree = "<group>"; };
+		8F82277418010B1500F4BC8F /* hotDrink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hotDrink.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +136,14 @@
 				8F8227391801080E00F4BC8F /* Supporting Files */,
 				8F8227671801095600F4BC8F /* drinkFactory.h */,
 				8F8227681801095600F4BC8F /* drinkFactory.m */,
+				8F82276A18010A4B00F4BC8F /* baseDrink.h */,
+				8F82276B18010A4B00F4BC8F /* baseDrink.m */,
+				8F82276D18010AF700F4BC8F /* smothieDrink.h */,
+				8F82276E18010AF700F4BC8F /* smothieDrink.m */,
+				8F82277018010B0600F4BC8F /* coldDrink.h */,
+				8F82277118010B0600F4BC8F /* coldDrink.m */,
+				8F82277318010B1500F4BC8F /* hotDrink.h */,
+				8F82277418010B1500F4BC8F /* hotDrink.m */,
 			);
 			path = project1;
 			sourceTree = "<group>";
@@ -254,10 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F82277518010B1500F4BC8F /* hotDrink.m in Sources */,
+				8F82276C18010A4B00F4BC8F /* baseDrink.m in Sources */,
 				8F8227491801080E00F4BC8F /* ViewController.m in Sources */,
 				8F8227691801095600F4BC8F /* drinkFactory.m in Sources */,
 				8F8227431801080E00F4BC8F /* AppDelegate.m in Sources */,
+				8F82276F18010AF700F4BC8F /* smothieDrink.m in Sources */,
 				8F82273F1801080E00F4BC8F /* main.m in Sources */,
+				8F82277218010B0600F4BC8F /* coldDrink.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
