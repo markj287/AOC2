@@ -21,6 +21,14 @@ typedef enum
    BIGCHERRY
 } ingridientsEnum;
 
-@property
+@property NSArray *ingridients;
+@property NSString *instructions;
+@property int blendingTime;
+
+// initialize
+-(id)init;
+
+// calculation method 
+-(void)calculateBlendingTime;
 
 @end

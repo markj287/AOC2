@@ -10,4 +10,20 @@
 
 @implementation baseIngridients
 
+// creates set and get methods
+@synthesize ingridients, instructions, blendingTime;
+
+-(id)init
+{
+   self = [super init];
+   //check to make sure initialized
+   if (self != nil)
+      {
+         [self setBlendingTime:0];
+         [self setIngridients:nil];
+         [self setInstructions:nil];
+      }
+   return self;
+}
+
 @end
