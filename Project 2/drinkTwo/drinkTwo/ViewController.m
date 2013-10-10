@@ -26,4 +26,26 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)onClick:(id)sender
+{
+   UIButton *button = (UIButton*)sender;
+   if (button != nil)
+   {
+      if(button.tag == 0)
+      {
+         NSLog(@"button one fired!");
+      }
+   
+      else if(button.tag == 2)
+      {
+         NSLog(@"button two fired");
+      }
+   
+      else if (button.tag == 3)
+      {
+         NSLog(@"button three fired");
+      }
+   }
+}
+
 @end

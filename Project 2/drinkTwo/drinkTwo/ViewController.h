@@ -10,4 +10,16 @@
 
 @interface ViewController : UIViewController
 
+{
+   IBOutlet UILabel *drinkLabel;
+   
+   IBOutlet UIButton *drinkOneBtn, *drinkTwoBtn, *drinkThreeBtn, *checkIceBtn;
+   
+   IBOutlet UIStepper *stepperBtn;
+   
+   IBOutlet UITextField *iceLabel;
+}
+
+-(IBAction)onClick:(id)sender;
+
 @end
