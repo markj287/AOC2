@@ -101,6 +101,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="checkIceBtn" destination="mHy-lb-nQK" id="ruH-bd-viX"/>
+                        <outlet property="drinkOneBtn" destination="TPN-HS-PLt" id="xkl-gX-eTj"/>
+                        <outlet property="drinkThreeBtn" destination="Vnw-nL-UxU" id="psM-ek-rxC"/>
+                        <outlet property="drinkTwoBtn" destination="Yr7-gm-TlQ" id="kti-cP-fha"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
