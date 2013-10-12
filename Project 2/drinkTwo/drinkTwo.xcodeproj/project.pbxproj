@@ -21,6 +21,9 @@
 		8F26A3B018035248002710FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F26A39218035248002710FA /* UIKit.framework */; };
 		8F26A3B818035248002710FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F26A3B618035248002710FA /* InfoPlist.strings */; };
 		8F26A3BA18035248002710FA /* drinkTwoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F26A3B918035248002710FA /* drinkTwoTests.m */; };
+		8F4D4B9F18081F86009AF689 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F4D4B9E18081F86009AF689 /* SecondView.xib */; };
+		8FD06D4F180A0C9700B59BA4 /* DrinkFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD06D4E180A0C9700B59BA4 /* DrinkFactory.m */; };
+		8FD06D52180A0DD900B59BA4 /* BaseDrink.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD06D51180A0DD900B59BA4 /* BaseDrink.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,11 @@
 		8F26A3B518035248002710FA /* drinkTwoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "drinkTwoTests-Info.plist"; sourceTree = "<group>"; };
 		8F26A3B718035248002710FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8F26A3B918035248002710FA /* drinkTwoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = drinkTwoTests.m; sourceTree = "<group>"; };
+		8F4D4B9E18081F86009AF689 /* SecondView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
+		8FD06D4D180A0C9700B59BA4 /* DrinkFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrinkFactory.h; sourceTree = "<group>"; };
+		8FD06D4E180A0C9700B59BA4 /* DrinkFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrinkFactory.m; sourceTree = "<group>"; };
+		8FD06D50180A0DD900B59BA4 /* BaseDrink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDrink.h; sourceTree = "<group>"; };
+		8FD06D51180A0DD900B59BA4 /* BaseDrink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDrink.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +127,11 @@
 				8F26A3A418035248002710FA /* ViewController.m */,
 				8F26A3A618035248002710FA /* Images.xcassets */,
 				8F26A39518035248002710FA /* Supporting Files */,
+				8F4D4B9E18081F86009AF689 /* SecondView.xib */,
+				8FD06D4D180A0C9700B59BA4 /* DrinkFactory.h */,
+				8FD06D4E180A0C9700B59BA4 /* DrinkFactory.m */,
+				8FD06D50180A0DD900B59BA4 /* BaseDrink.h */,
+				8FD06D51180A0DD900B59BA4 /* BaseDrink.m */,
 			);
 			path = drinkTwo;
 			sourceTree = "<group>";
@@ -230,6 +243,7 @@
 			files = (
 				8F26A3A718035248002710FA /* Images.xcassets in Resources */,
 				8F26A39918035248002710FA /* InfoPlist.strings in Resources */,
+				8F4D4B9F18081F86009AF689 /* SecondView.xib in Resources */,
 				8F26A3A218035248002710FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F26A3A518035248002710FA /* ViewController.m in Sources */,
+				8FD06D52180A0DD900B59BA4 /* BaseDrink.m in Sources */,
+				8FD06D4F180A0C9700B59BA4 /* DrinkFactory.m in Sources */,
 				8F26A39F18035248002710FA /* AppDelegate.m in Sources */,
 				8F26A39B18035248002710FA /* main.m in Sources */,
 			);
@@ -460,6 +476,7 @@
 				8F26A3BF18035248002710FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F26A3C018035248002710FA /* Build configuration list for PBXNativeTarget "drinkTwoTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +485,7 @@
 				8F26A3C218035248002710FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
