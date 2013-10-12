@@ -7,6 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BaseDrink.h"
+#import "ColdDrink.h"
+#import "HotDrink.h"
+#import "BlendedDrink.h"
 
 @interface DrinkFactory : NSObject
 

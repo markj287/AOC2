@@ -24,6 +24,9 @@
 		8F4D4B9F18081F86009AF689 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F4D4B9E18081F86009AF689 /* SecondView.xib */; };
 		8FD06D4F180A0C9700B59BA4 /* DrinkFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD06D4E180A0C9700B59BA4 /* DrinkFactory.m */; };
 		8FD06D52180A0DD900B59BA4 /* BaseDrink.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD06D51180A0DD900B59BA4 /* BaseDrink.m */; };
+		8FD06D55180A0E8500B59BA4 /* ColdDrink.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD06D54180A0E8500B59BA4 /* ColdDrink.m */; };
+		8FD06D58180A0E9400B59BA4 /* HotDrink.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD06D57180A0E9400B59BA4 /* HotDrink.m */; };
+		8FD06D5B180A0EB700B59BA4 /* BlendedDrink.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD06D5A180A0EB700B59BA4 /* BlendedDrink.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,12 @@
 		8FD06D4E180A0C9700B59BA4 /* DrinkFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrinkFactory.m; sourceTree = "<group>"; };
 		8FD06D50180A0DD900B59BA4 /* BaseDrink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDrink.h; sourceTree = "<group>"; };
 		8FD06D51180A0DD900B59BA4 /* BaseDrink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDrink.m; sourceTree = "<group>"; };
+		8FD06D53180A0E8500B59BA4 /* ColdDrink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColdDrink.h; sourceTree = "<group>"; };
+		8FD06D54180A0E8500B59BA4 /* ColdDrink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColdDrink.m; sourceTree = "<group>"; };
+		8FD06D56180A0E9400B59BA4 /* HotDrink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotDrink.h; sourceTree = "<group>"; };
+		8FD06D57180A0E9400B59BA4 /* HotDrink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotDrink.m; sourceTree = "<group>"; };
+		8FD06D59180A0EB700B59BA4 /* BlendedDrink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlendedDrink.h; sourceTree = "<group>"; };
+		8FD06D5A180A0EB700B59BA4 /* BlendedDrink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlendedDrink.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +141,12 @@
 				8FD06D4E180A0C9700B59BA4 /* DrinkFactory.m */,
 				8FD06D50180A0DD900B59BA4 /* BaseDrink.h */,
 				8FD06D51180A0DD900B59BA4 /* BaseDrink.m */,
+				8FD06D53180A0E8500B59BA4 /* ColdDrink.h */,
+				8FD06D54180A0E8500B59BA4 /* ColdDrink.m */,
+				8FD06D56180A0E9400B59BA4 /* HotDrink.h */,
+				8FD06D57180A0E9400B59BA4 /* HotDrink.m */,
+				8FD06D59180A0EB700B59BA4 /* BlendedDrink.h */,
+				8FD06D5A180A0EB700B59BA4 /* BlendedDrink.m */,
 			);
 			path = drinkTwo;
 			sourceTree = "<group>";
@@ -265,9 +280,12 @@
 			files = (
 				8F26A3A518035248002710FA /* ViewController.m in Sources */,
 				8FD06D52180A0DD900B59BA4 /* BaseDrink.m in Sources */,
+				8FD06D55180A0E8500B59BA4 /* ColdDrink.m in Sources */,
 				8FD06D4F180A0C9700B59BA4 /* DrinkFactory.m in Sources */,
 				8F26A39F18035248002710FA /* AppDelegate.m in Sources */,
 				8F26A39B18035248002710FA /* main.m in Sources */,
+				8FD06D58180A0E9400B59BA4 /* HotDrink.m in Sources */,
+				8FD06D5B180A0EB700B59BA4 /* BlendedDrink.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
