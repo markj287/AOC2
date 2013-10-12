@@ -18,6 +18,12 @@
    IBOutlet UIStepper *stepperBtn;
    
    IBOutlet UITextField *iceLabel;
+   
+   NSString *tempString;
+   
+   //BaseDrink *blendedDrink;
+   
+   //BaseDrink *coldDrink;
 }
 
 -(IBAction)onClick:(id)sender;
