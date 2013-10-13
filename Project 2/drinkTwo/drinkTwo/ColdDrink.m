@@ -10,4 +10,25 @@
 
 @implementation ColdDrink
 
+@synthesize numOfIce, amountOfTime;
+
+-(id)init;
+{
+   self = [super init];
+   if (self != nil)
+      {
+         [self setMixTime:5];
+         [self setNumOfIce:10];
+         [self setAmountOfTime:8];
+      }
+   return self;
+};
+
+// overide
+-(void)calculateMixTime
+{
+   [self setMixTime:(numOfIce * amountOfTime)];
+   NSLog(@"This drink needs %i of time to mix", self.mixTime);
+}
+
 @end
