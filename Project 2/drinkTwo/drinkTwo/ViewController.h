@@ -13,19 +13,19 @@
 {
    IBOutlet UILabel *drinkLabel;
    
-   IBOutlet UIButton *drinkOneBtn, *drinkTwoBtn, *drinkThreeBtn, *checkIceBtn;
+   IBOutlet UIButton *drinkOneBtn, *drinkTwoBtn, *drinkThreeBtn, *checkIceBtn, *infoBtn;
    
    IBOutlet UIStepper *stepperBtn;
    
+   IBOutlet UISegmentedControl *segmentControl;
+   
    IBOutlet UITextField *iceLabel;
    
-   NSString *tempString;
+   int currentValue;
    
-   //BaseDrink *blendedDrink;
-   
-   //BaseDrink *coldDrink;
 }
 
 -(IBAction)onClick:(id)sender;
+-(IBAction)onChange:(id)sender;
 
 @end

@@ -18,13 +18,7 @@
    self =  [super init];
    if (self != nil)
       {
-      
-         [self setTime:0];
-         [self setIce:nil];
-         [self setDrinkName:nil];
-         //_ice = NO;
-         //_drinkName = @"Empty";
-         //_time = 0;
+
       }
    return self;
    
