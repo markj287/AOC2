@@ -10,7 +10,7 @@
 
 @implementation BaseDrink
 
-@synthesize setIce,setDrinkName,setTime;
+@synthesize drinkName, setIce, mixTime;
 
 // Creates the defaults that each drink will have
 -(id)init
@@ -18,7 +18,9 @@
    self =  [super init];
    if (self != nil)
       {
-
+         [self setMixTime:0];
+         [self setSetIce:NO];
+         [self setDrinkName:nil];
       }
    return self;
    
@@ -26,8 +28,7 @@
 
 -(void)calculateMixTime
 {
-   
-   NSLog(@"This drink needs %i minutes of mixing", setTime);
+   NSLog(@"This drink needs %i minutes of mixing", mixTime);
 }
 
 
