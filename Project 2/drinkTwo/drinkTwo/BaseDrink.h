@@ -23,16 +23,24 @@ typedef enum
 
 
 
-@property NSString *setDrinkName;
+@property NSString *drinkName;
 @property bool setIce;
-@property int setTime;
+@property int mixTime;
 
 
--(void)changeIce:(bool)temp;
--(void)changeDrink:(NSString*)temp;
--(void)changeTime:(int)temp;
--(bool)getIce;
--(NSString*)whichDrink;
--(int)howMuchTime;
+//initialize
+-(id)init;
+
+//calculation mixing time
+-(void)calculateMixTime;
+
+
+
+   //-(void)changeIce:(bool)temp;
+   //-(void)changeDrink:(NSString*)temp;
+   //-(void)changeTime:(int)temp;
+   //-(bool)getIce;
+   //-(NSString*)whichDrink;
+   //-(int)howMuchTime;
 
 @end

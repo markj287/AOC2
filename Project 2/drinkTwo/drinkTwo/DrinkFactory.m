@@ -14,17 +14,17 @@
 
 @implementation DrinkFactory
 
--(BaseDrink*)getDrink:(int)drinkType
+-(BaseDrink*) makeDrink:(int)drinkType
 {
-   if (drinkType == 0) {
+   if (drinkType == BLENDED) {
       
       return [[BlendedDrink alloc] init];
    }
-   else if (drinkType == 1) {
+   else if (drinkType == HOT) {
       
       return [[ColdDrink alloc] init];
    }
-   else if (drinkType == 2) {
+   else if (drinkType == COLD) {
       
       return [[HotDrink alloc] init];
    }
