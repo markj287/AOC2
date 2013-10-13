@@ -11,11 +11,22 @@
 @interface BaseDrink : NSObject
 
 {
-   @protected
-   NSString *_drinkName;
-   bool _ice;
-   int _time;
+   int drinkEnum;
 }
+
+typedef enum
+{
+   BLENDED,
+   HOT,
+   COLD
+} drinkEnum;
+
+
+
+@property NSString *setDrinkName;
+@property bool setIce;
+@property int setTime;
+
 
 -(void)changeIce:(bool)temp;
 -(void)changeDrink:(NSString*)temp;
