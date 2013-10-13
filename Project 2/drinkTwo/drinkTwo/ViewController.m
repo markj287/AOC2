@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DrinkFactory.h"
 
 @interface ViewController ()
 
@@ -54,7 +55,27 @@
          drinkOneBtn.enabled = true;
          NSLog(@"button three fired");
       }
-   }
+   
+   
+      else if (button.tag == 0)
+      {
+         if (drinkOneBtn.enabled == false)
+         {
+            ColdDrink *lemonade = (ColdDrink*)[DrinkFactory makeDrink:COLD];
+            [lemonade setMixTime:3];
+         
+            if (lemonade != nil)
+            {
+               [lemonade calculateMixTime];
+            
+               int lemonadeMixTime = lemonade.mixTime * currentValue;
+            
+               result.text = [NSString stringWithFormat:@"Lemonade will %d mintues to make", lemonadeMixTime];
+            }
+         }// end if
+      }// end else if
+   
+   }// end if
 }
 
 @end

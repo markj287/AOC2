@@ -19,7 +19,7 @@
    
    IBOutlet UISegmentedControl *segmentControl;
    
-   IBOutlet UITextField *iceLabel;
+   IBOutlet UITextField *result;
    
    int currentValue;
    
