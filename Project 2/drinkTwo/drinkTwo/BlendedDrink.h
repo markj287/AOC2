@@ -10,4 +10,7 @@
 
 @interface BlendedDrink : BaseDrink
 
+@property int numOfIce;
+@property int amountOfTime;
+
 @end

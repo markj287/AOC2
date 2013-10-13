@@ -20,6 +20,7 @@
          [self setMixTime:5];
          [self setNumOfIce:10];
          [self setAmountOfTime:8];
+         [self setDrinkName:@"COLD"];
       }
    return self;
 };

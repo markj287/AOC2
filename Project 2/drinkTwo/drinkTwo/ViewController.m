@@ -34,13 +34,16 @@
       if(button.tag == 0)
       {
          drinkOneBtn.enabled = false;
+         drinkTwoBtn.enabled = true;
+         drinkThreeBtn.enabled = true;
          NSLog(@"button one fired!");
       }
    
       else if(button.tag == 2)
       {
-         drinkOneBtn.enabled = true;
          drinkTwoBtn.enabled = false;
+         drinkOneBtn.enabled = true;
+         drinkThreeBtn.enabled = true;
          NSLog(@"button two fired");
       }
    
@@ -48,6 +51,7 @@
       {
          drinkThreeBtn.enabled = false;
          drinkTwoBtn.enabled = true;
+         drinkOneBtn.enabled = true;
          NSLog(@"button three fired");
       }
    }
