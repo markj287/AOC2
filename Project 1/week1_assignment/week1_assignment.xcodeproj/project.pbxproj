@@ -21,7 +21,11 @@
 		8FE3314418255C9D00D0D53B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE3312618255C9D00D0D53B /* UIKit.framework */; };
 		8FE3314C18255C9D00D0D53B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8FE3314A18255C9D00D0D53B /* InfoPlist.strings */; };
 		8FE3314E18255C9D00D0D53B /* week1_assignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE3314D18255C9D00D0D53B /* week1_assignmentTests.m */; };
-		8FE331591825BB2D00D0D53B /* drinksFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE331581825BB2D00D0D53B /* drinksFactory.m */; };
+		8FE3315C1825BBAA00D0D53B /* drinksFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE3315B1825BBAA00D0D53B /* drinksFactory.m */; };
+		8FE331621825BC0F00D0D53B /* drinksRecipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE331611825BC0F00D0D53B /* drinksRecipe.m */; };
+		8FE331651825BC3800D0D53B /* coldDrink.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE331641825BC3800D0D53B /* coldDrink.m */; };
+		8FE331681825BC4C00D0D53B /* hotDrink.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE331671825BC4C00D0D53B /* hotDrink.m */; };
+		8FE3316B1825BC6100D0D53B /* blendidDrink.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE3316A1825BC6100D0D53B /* blendidDrink.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +58,16 @@
 		8FE3314918255C9D00D0D53B /* week1_assignmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "week1_assignmentTests-Info.plist"; sourceTree = "<group>"; };
 		8FE3314B18255C9D00D0D53B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8FE3314D18255C9D00D0D53B /* week1_assignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = week1_assignmentTests.m; sourceTree = "<group>"; };
-		8FE331571825BB2D00D0D53B /* drinksFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = drinksFactory.h; path = week1_assignment/drinksFactory.h; sourceTree = "<group>"; };
-		8FE331581825BB2D00D0D53B /* drinksFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = drinksFactory.m; path = week1_assignment/drinksFactory.m; sourceTree = "<group>"; };
+		8FE3315A1825BBAA00D0D53B /* drinksFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drinksFactory.h; sourceTree = "<group>"; };
+		8FE3315B1825BBAA00D0D53B /* drinksFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = drinksFactory.m; sourceTree = "<group>"; };
+		8FE331601825BC0F00D0D53B /* drinksRecipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drinksRecipe.h; sourceTree = "<group>"; };
+		8FE331611825BC0F00D0D53B /* drinksRecipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = drinksRecipe.m; sourceTree = "<group>"; };
+		8FE331631825BC3800D0D53B /* coldDrink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coldDrink.h; sourceTree = "<group>"; };
+		8FE331641825BC3800D0D53B /* coldDrink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = coldDrink.m; sourceTree = "<group>"; };
+		8FE331661825BC4C00D0D53B /* hotDrink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hotDrink.h; sourceTree = "<group>"; };
+		8FE331671825BC4C00D0D53B /* hotDrink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hotDrink.m; sourceTree = "<group>"; };
+		8FE331691825BC6100D0D53B /* blendidDrink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blendidDrink.h; sourceTree = "<group>"; };
+		8FE3316A1825BC6100D0D53B /* blendidDrink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = blendidDrink.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +97,6 @@
 		8FE3311618255C9D00D0D53B = {
 			isa = PBXGroup;
 			children = (
-				8FE331571825BB2D00D0D53B /* drinksFactory.h */,
-				8FE331581825BB2D00D0D53B /* drinksFactory.m */,
 				8FE3312818255C9D00D0D53B /* week1_assignment */,
 				8FE3314718255C9D00D0D53B /* week1_assignmentTests */,
 				8FE3312118255C9D00D0D53B /* Frameworks */,
@@ -124,6 +134,16 @@
 				8FE3313818255C9D00D0D53B /* ViewController.m */,
 				8FE3313A18255C9D00D0D53B /* Images.xcassets */,
 				8FE3312918255C9D00D0D53B /* Supporting Files */,
+				8FE3315A1825BBAA00D0D53B /* drinksFactory.h */,
+				8FE3315B1825BBAA00D0D53B /* drinksFactory.m */,
+				8FE331601825BC0F00D0D53B /* drinksRecipe.h */,
+				8FE331611825BC0F00D0D53B /* drinksRecipe.m */,
+				8FE331631825BC3800D0D53B /* coldDrink.h */,
+				8FE331641825BC3800D0D53B /* coldDrink.m */,
+				8FE331661825BC4C00D0D53B /* hotDrink.h */,
+				8FE331671825BC4C00D0D53B /* hotDrink.m */,
+				8FE331691825BC6100D0D53B /* blendidDrink.h */,
+				8FE3316A1825BC6100D0D53B /* blendidDrink.m */,
 			);
 			path = week1_assignment;
 			sourceTree = "<group>";
@@ -254,8 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FE331651825BC3800D0D53B /* coldDrink.m in Sources */,
+				8FE331621825BC0F00D0D53B /* drinksRecipe.m in Sources */,
 				8FE3313918255C9D00D0D53B /* ViewController.m in Sources */,
-				8FE331591825BB2D00D0D53B /* drinksFactory.m in Sources */,
+				8FE3316B1825BC6100D0D53B /* blendidDrink.m in Sources */,
+				8FE3315C1825BBAA00D0D53B /* drinksFactory.m in Sources */,
+				8FE331681825BC4C00D0D53B /* hotDrink.m in Sources */,
 				8FE3313318255C9D00D0D53B /* AppDelegate.m in Sources */,
 				8FE3312F18255C9D00D0D53B /* main.m in Sources */,
 			);
