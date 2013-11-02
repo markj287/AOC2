@@ -26,4 +26,10 @@ typedef enum {
 @property NSString *instructions;
 @property int minutesToMake;
 
+// Initialize
+-(id)init;
+
+// Calculation to find how much min it takes to make a drink
+-(void)calculateMakeTime;
+
 @end
