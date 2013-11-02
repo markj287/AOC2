@@ -7,7 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "drinksRecipe.h"
+#import "hotDrink.h" 
+#import "coldDrink.h"
+#import "blendidDrink.h"
 
 @interface drinksFactory : NSObject
+
+
+// static method
++(drinksRecipe *)createNewDrink:(int)drinkType;
 
 @end
