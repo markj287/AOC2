@@ -10,7 +10,7 @@
 
 @implementation hotDrink
 
-@synthesize sugar, minToBoil;
+@synthesize sugar, minToBoil, amountOfCream;
 
 -(id)init
 {
@@ -20,6 +20,7 @@
       [self setMinutesToMake:12];
       [self setSugar:YES];
       [self setMinToBoil:5];
+      [self setAmountOfCream:2];
    }
    
    return self;
@@ -28,7 +29,7 @@
    // Overiding calculation mathod
 -(void)calculateMakeTime
 {
-   [self setMinutesToMake:(minToBoil * scoopsOfSugar)];
+   [self setMinutesToMake:(minToBoil * amountOfCream)];
    NSLog(@"The hot drink needs %i minutes.", self.minutesToMake);
 }
 
