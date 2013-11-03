@@ -10,4 +10,8 @@
 
 @interface hotDrink : drinksRecipe
 
+@property int minToBoil;
+@property bool sugar;
+
+
 @end
