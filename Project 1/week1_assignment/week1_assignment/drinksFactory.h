@@ -15,7 +15,7 @@
 @interface drinksFactory : NSObject
 
 
-// static method
+// Static method
 +(drinksRecipe *)createNewDrink:(int)drinkType;
 
 @end

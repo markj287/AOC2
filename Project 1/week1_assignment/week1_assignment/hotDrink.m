@@ -17,7 +17,7 @@
    self = [super init];
    if (self !=nil)
    {
-      [self setMinutesToMake:12];
+      [self setMinutesToMake:8];
       [self setSugar:YES];
       [self setMinToBoil:5];
       [self setAmountOfCream:2];
