@@ -10,4 +10,8 @@
 
 @interface coldDrink : drinksRecipe
 
+// Unique data members for cold drink
+@property int ice;
+@property int scoopsOfSugar;
+
 @end
