@@ -21,6 +21,7 @@
       [self setSugar:YES];
       [self setMinToBoil:5];
       [self setAmountOfCream:2];
+      NSLog(@"You have made some hot chocolate!");
    }
    
    return self;
