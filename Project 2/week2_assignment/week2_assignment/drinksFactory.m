@@ -10,4 +10,22 @@
 
 @implementation drinksFactory
 
++(drinksRecipe *)createNewDrink:(int)drinkType
+{
+   if (drinkType == COLD){
+      
+      return [[coldDrink alloc] init];
+      
+   }else if (drinkType == HOT) {
+      
+      return [[hotDrink alloc] init];
+      
+   } else if (drinkType == BLENDID){
+      
+      return [[blendidDrink alloc] init];
+      
+   } else return nil;
+}
+
+
 @end

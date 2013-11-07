@@ -10,4 +10,27 @@
 
 @interface drinksRecipe : NSObject
 
+{
+   int drinksEnum;
+}
+
+typedef enum {
+   COLD,
+   HOT,
+   BLENDID
+}drinksEnum;
+
+
+   // Properties that will be shared by all our drinks
+@property NSArray *ingredients;
+@property NSString *instructions;
+@property int minutesToMake;
+
+   // Initialize
+-(id)init;
+
+   // Calculation to find how much min it takes to make a drink
+-(void)calculateMakeTime;
+
+
 @end

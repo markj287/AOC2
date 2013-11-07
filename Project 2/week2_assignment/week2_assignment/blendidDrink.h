@@ -10,4 +10,8 @@
 
 @interface blendidDrink : drinksRecipe
 
+@property int blendTime;
+@property int ice;
+@property bool willUseFruit;
+
 @end
