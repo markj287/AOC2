@@ -81,14 +81,27 @@
    {
       if (button.tag == 1)
       {
+         coldDrinkBtn.enabled = false;
+         hotDrinkBtn.enabled = true;
+         blendidDrinkBtn.enabled = true;
+         //calculateBtn.enabled = false;
+         result.text = @"Kool Aid";
          NSLog(@"Cold Drink Button Pressed");
       }
       else if (button.tag == 2)
       {
+         hotDrinkBtn.enabled = false;
+         coldDrinkBtn.enabled = true;
+         blendidDrinkBtn.enabled = true;
+         result.text = @"Cofee";
          NSLog(@"Hot Drink Button Pressed");
       }
       else if (button.tag == 3)
       {
+         blendidDrinkBtn.enabled = false;
+         hotDrinkBtn.enabled = true;
+         coldDrinkBtn.enabled = true;
+         result.text = @"Fruit Smothie";
          NSLog(@"Blendid Drink Button Pressed");
       }
       else if (button.tag == 4)
