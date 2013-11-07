@@ -10,5 +10,13 @@
 #import "drinksFactory.h"
 
 @interface ViewController : UIViewController
+{
+   UILabel *createLabel;
+   UIStepper *quantityStepper;
+   UIButton *coldDrinkBtn;
+   UIButton *hotDrinkBtn;
+   UIButton *blendidDrinkBtn;
+   UIButton *calculateBtn;
+}
 
 @end
