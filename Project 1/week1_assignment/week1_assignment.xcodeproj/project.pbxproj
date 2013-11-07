@@ -490,6 +490,7 @@
 				8FE3315318255C9D00D0D53B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FE3315418255C9D00D0D53B /* Build configuration list for PBXNativeTarget "week1_assignmentTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +499,7 @@
 				8FE3315618255C9D00D0D53B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
