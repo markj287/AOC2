@@ -11,12 +11,16 @@
 
 @interface ViewController : UIViewController
 {
-   UILabel *createLabel;
-   UIStepper *quantityStepper;
-   UIButton *coldDrinkBtn;
-   UIButton *hotDrinkBtn;
-   UIButton *blendidDrinkBtn;
-   UIButton *calculateBtn;
+   IBOutlet UITextField *result;
+   IBOutlet UILabel *createLabel;
+   IBOutlet UIStepper *quantityStepper;
+   IBOutlet UIButton *coldDrinkBtn;
+   IBOutlet UIButton *hotDrinkBtn;
+   IBOutlet UIButton *blendidDrinkBtn;
+   IBOutlet UIButton *calculateBtn;
 }
+
+-(IBAction)onClick:(id)sender;
+-(IBAction)onChange:(id)sender;
 
 @end

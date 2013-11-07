@@ -69,4 +69,36 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+
+
+
+-(IBAction)onClick:(id)sender
+{
+   UIButton *button = (UIButton*)sender;
+   
+   if (button != nil)
+   {
+      if (button.tag == 1)
+      {
+         NSLog(@"Cold Drink Button Pressed");
+      }
+      else if (button.tag == 2)
+      {
+         NSLog(@"Hot Drink Button Pressed");
+      }
+      else if (button.tag == 3)
+      {
+         NSLog(@"Blendid Drink Button Pressed");
+      }
+      else if (button.tag == 4)
+      {
+         NSLog(@"Calculate Button Pressed");
+      }
+   }
+   
+  
+}
+
+
 @end
