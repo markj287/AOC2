@@ -81,21 +81,8 @@
                                     <action selector="onClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="s5C-u2-abg"/>
                                 </connections>
                             </button>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="syA-RJ-moV">
-                                <rect key="frame" x="0.0" y="519" width="320" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <items>
-                                    <tabBarItem systemItem="favorites" id="Qv1-pJ-LaS"/>
-                                    <tabBarItem title="Item" id="gcJ-xp-PJE"/>
-                                    <tabBarItem title="Item" id="aUA-XN-f6k"/>
-                                    <tabBarItem title="Item" id="FOW-Lk-Ryw"/>
-                                    <tabBarItem title="Item" id="zzG-cg-NUs"/>
-                                    <tabBarItem systemItem="more" id="tNT-Yv-UEy"/>
-                                </items>
-                            </tabBar>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Select an item to make" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Uzm-qB-BDt">
-                                <rect key="frame" x="84" y="44" width="216" height="30"/>
+                                <rect key="frame" x="20" y="70" width="280" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>

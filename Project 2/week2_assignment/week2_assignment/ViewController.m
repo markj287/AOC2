@@ -15,49 +15,7 @@
 @implementation ViewController
 
 - (void)viewDidLoad
-{
-   
-   coldDrink *koolAid = (coldDrink*) [drinksFactory createNewDrink:COLD];
-   [koolAid setIce:5];
-   
-   if (koolAid != nil) {
-      
-      NSArray *coldDrinkIngridients = [[NSArray alloc] initWithObjects:@"cold water", @"kool aid", nil];
-      [koolAid setIngredients:coldDrinkIngridients];
-      
-      
-      NSString *coldDrinkInsturctions = @"Make sure to mix throughly to get the best flavor";
-      [koolAid setInstructions:coldDrinkInsturctions];
-      
-      NSLog(@"You have just made some good ol kool aid " "with the ingridients %@", [koolAid ingredients]);
-      
-      NSLog(@"%@", koolAid.instructions);
-      
-      [koolAid calculateMakeTime];
-   }// end if
-   
-   hotDrink *hotChocolate = (hotDrink*)[drinksFactory createNewDrink:HOT];
-   
-   if (hotChocolate != nil) {
-      [hotChocolate setMinToBoil:5];
-      [hotChocolate setAmountOfCream:2];
-      
-      [hotChocolate  calculateMakeTime];
-   }
-   
-   blendidDrink *smoothie = (blendidDrink*) [drinksFactory createNewDrink:BLENDID];
-   
-   if (smoothie != nil) {
-      [smoothie setBlendTime:8];
-      [smoothie setIce:5];
-      
-      [smoothie calculateMakeTime];
-   }
-   
-   
-   
-   
-   
+{ 
    
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
@@ -84,7 +42,6 @@
          coldDrinkBtn.enabled = false;
          hotDrinkBtn.enabled = true;
          blendidDrinkBtn.enabled = true;
-         //calculateBtn.enabled = false;
          result.text = @"Kool Aid";
          NSLog(@"Cold Drink Button Pressed");
       }
@@ -104,12 +61,6 @@
          result.text = @"Fruit Smothie";
          NSLog(@"Blendid Drink Button Pressed");
       }
-      else if (button.tag == 4)
-      {
-         NSLog(@"Calculate Button Pressed");
-      }
-   
-   
    
       else if (button.tag == 4)
       {
@@ -124,7 +75,6 @@
                NSArray *coldDrinkIngridients = [[NSArray alloc] initWithObjects:@"cold water", @"kool aid", nil];
                [koolAid setIngredients:coldDrinkIngridients];
             
-            
                NSString *coldDrinkInsturctions = @"Make sure to mix throughly to get the best flavor";
                [koolAid setInstructions:coldDrinkInsturctions];
             
@@ -134,7 +84,7 @@
             
                [koolAid calculateMakeTime];
             
-               int koolAidMakeTime = koolAid.minutesToMake * currentValue;
+               int koolAidMakeTime = koolAid.minutesToMake + currentValue;
             
                result.text = [NSString stringWithFormat:@"Kool Aid will need %d minutes to make", koolAidMakeTime];
             }// end if
@@ -151,9 +101,9 @@
             
                [hotChocolate  calculateMakeTime];
             
-               int hotChocolateMakeTime = hotChocolate.minutesToMake * currentValue;
+               int hotChocolateMakeTime = hotChocolate.minutesToMake + currentValue;
             
-               result.text = [NSString stringWithFormat:@"Hot Chocolate will need %d minutes to make", hotChocolateMakeTime];
+               result.text = [NSString stringWithFormat:@"Hot Chocolate takes %d minutes to make", hotChocolateMakeTime];
             }
          } // end elseif
       
@@ -168,22 +118,14 @@
             
                [smoothie calculateMakeTime];
             
-               int blendidMakeTime = smoothie.minutesToMake * currentValue;
+               int blendidMakeTime = smoothie.minutesToMake + currentValue;
             
-               result.text = [NSString stringWithFormat:@"The fruit smothie will need %d minutes to make", blendidMakeTime];
+               result.text = [NSString stringWithFormat:@"Fruit smothie takes %d minutes to make", blendidMakeTime];
             }
          }
-      
-      
-      
       }// end elseif
-   
-   
-   
-   }
-   
-  
-}
+   } // end if   
+} // end ib action 
 
 -(IBAction)onChange:(id)sender
 {
