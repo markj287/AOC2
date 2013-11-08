@@ -157,6 +157,23 @@
             }
          } // end elseif
       
+         else if (blendidDrinkBtn.enabled == false)
+         {
+            blendidDrink *smoothie = (blendidDrink*) [drinksFactory createNewDrink:BLENDID];
+         
+            if (smoothie != nil)
+            {
+               [smoothie setBlendTime:8];
+               [smoothie setIce:5];
+            
+               [smoothie calculateMakeTime];
+            
+               int blendidMakeTime = smoothie.minutesToMake * currentValue;
+            
+               result.text = [NSString stringWithFormat:@"The fruit smothie will need %d minutes to make", blendidMakeTime];
+            }
+         }
+      
       
       
       }// end elseif
@@ -166,6 +183,12 @@
    }
    
   
+}
+
+-(IBAction)onChange:(id)sender
+{
+    UIButton *button = (UIButton*)sender;
+
 }
 
 
