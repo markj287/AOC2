@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F0AB9D7182CCCE600257ECD /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F0AB9D6182CCCE600257ECD /* SecondView.xib */; };
+		8F0AB9DB182CCF1200257ECD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0AB9D9182CCF1200257ECD /* SecondViewController.m */; };
 		8F2FA3BB182BECBE00A22585 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2FA3BA182BECBE00A22585 /* Foundation.framework */; };
 		8F2FA3BD182BECBE00A22585 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2FA3BC182BECBE00A22585 /* CoreGraphics.framework */; };
 		8F2FA3BF182BECBE00A22585 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2FA3BE182BECBE00A22585 /* UIKit.framework */; };
@@ -39,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F0AB9D6182CCCE600257ECD /* SecondView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
+		8F0AB9D8182CCF1200257ECD /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		8F0AB9D9182CCF1200257ECD /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		8F2FA3B7182BECBE00A22585 /* week2_assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = week2_assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F2FA3BA182BECBE00A22585 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8F2FA3BC182BECBE00A22585 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -144,6 +149,9 @@
 				8F2FA3FE182BEF6500A22585 /* hotDrink.m */,
 				8F2FA400182BEF7400A22585 /* blendidDrink.h */,
 				8F2FA401182BEF7400A22585 /* blendidDrink.m */,
+				8F0AB9D6182CCCE600257ECD /* SecondView.xib */,
+				8F0AB9D8182CCF1200257ECD /* SecondViewController.h */,
+				8F0AB9D9182CCF1200257ECD /* SecondViewController.m */,
 			);
 			path = week2_assignment;
 			sourceTree = "<group>";
@@ -255,6 +263,7 @@
 			files = (
 				8F2FA3D3182BECBE00A22585 /* Images.xcassets in Resources */,
 				8F2FA3C5182BECBE00A22585 /* InfoPlist.strings in Resources */,
+				8F0AB9D7182CCCE600257ECD /* SecondView.xib in Resources */,
 				8F2FA3CE182BECBE00A22585 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F0AB9DB182CCF1200257ECD /* SecondViewController.m in Sources */,
 				8F2FA3FC182BEF5000A22585 /* coldDrink.m in Sources */,
 				8F2FA3F9182BEEFD00A22585 /* drinksRecipe.m in Sources */,
 				8F2FA3D1182BECBE00A22585 /* ViewController.m in Sources */,
