@@ -133,9 +133,34 @@
                NSLog(@"%@", koolAid.instructions);
             
                [koolAid calculateMakeTime];
+            
+               int koolAidMakeTime = koolAid.minutesToMake * currentValue;
+            
+               result.text = [NSString stringWithFormat:@"Kool Aid will need %d minutes to make", koolAidMakeTime];
             }// end if
-         }
-      }
+         }// end if
+      
+         else if (hotDrinkBtn.enabled == false)
+         {
+            hotDrink *hotChocolate = (hotDrink*)[drinksFactory createNewDrink:HOT];
+         
+            if (hotChocolate != nil)
+            {
+               [hotChocolate setMinToBoil:5];
+               [hotChocolate setAmountOfCream:2];
+            
+               [hotChocolate  calculateMakeTime];
+            
+               int hotChocolateMakeTime = hotChocolate.minutesToMake * currentValue;
+            
+               result.text = [NSString stringWithFormat:@"Hot Chocolate will need %d minutes to make", hotChocolateMakeTime];
+            }
+         } // end elseif
+      
+      
+      
+      }// end elseif
+   
    
    
    }
