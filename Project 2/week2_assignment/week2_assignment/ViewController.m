@@ -126,7 +126,7 @@
          }
       }// end elseif
 
-      else if (button.tag == 4)
+      else if (button.tag == 5)
       {
           SecondViewController *viewController = [[SecondViewController alloc] initWithNibName:@"SecondView" bundle:nil];
             if(viewController != nil )
@@ -135,7 +135,7 @@
                 [self presentViewController:viewController animated:TRUE completion:nil];
                 
             }
-            
+      
             infoBtn.enabled = true;
             NSLog(@"You selected the info button.");
       }
