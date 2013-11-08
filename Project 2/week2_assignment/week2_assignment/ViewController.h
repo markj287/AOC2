@@ -15,6 +15,7 @@
    IBOutlet UILabel *createLabel;
    IBOutlet UIStepper *quantityStepper;
    IBOutlet UIButton *coldDrinkBtn;
+   IBOutlet UIButton *infoBtn;
    IBOutlet UIButton *hotDrinkBtn;
    IBOutlet UIButton *blendidDrinkBtn;
    IBOutlet UIButton *calculateBtn;

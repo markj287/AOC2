@@ -87,6 +87,17 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Chb-e3-bnz">
+                                <rect key="frame" x="20" y="444" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Tpz-4s-yaF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.73820593728900463" green="0.73291308137166733" blue="0.77460512907608692" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -96,6 +107,7 @@
                         <outlet property="coldDrinkBtn" destination="Bew-wG-EMv" id="5RP-4B-jwm"/>
                         <outlet property="createLabel" destination="WY2-Ko-0Oe" id="4gy-e4-W5j"/>
                         <outlet property="hotDrinkBtn" destination="TtO-d2-Rj0" id="OFb-SU-JAR"/>
+                        <outlet property="infoBtn" destination="Chb-e3-bnz" id="iaI-Fs-HVr"/>
                         <outlet property="quantityStepper" destination="auG-3O-9TB" id="2Hb-81-2Kd"/>
                         <outlet property="result" destination="Uzm-qB-BDt" id="J8j-QE-llg"/>
                     </connections>

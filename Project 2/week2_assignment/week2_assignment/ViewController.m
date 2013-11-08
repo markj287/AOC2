@@ -125,6 +125,21 @@
             }
          }
       }// end elseif
+
+      else if (button.tag == 4)
+      {
+          SecondViewController *viewController = [[SecondViewController alloc] initWithNibName:@"SecondView" bundle:nil];
+            if(viewController != nil )
+            {
+                //viewController.delegate = self;
+                [self presentViewController:viewController animated:TRUE completion:nil];
+                
+            }
+            
+            infoBtn.enabled = true;
+            NSLog(@"You selected the info button.");
+      }
+
    } // end if   
 } // end ib action 
 
