@@ -108,6 +108,36 @@
       {
          NSLog(@"Calculate Button Pressed");
       }
+   
+   
+   
+      else if (button.tag == 4)
+      {
+         if (coldDrinkBtn.enabled == false)
+         {
+            coldDrink *koolAid = (coldDrink*) [drinksFactory createNewDrink:COLD];
+            [koolAid setIce:5];
+         
+            if (koolAid != nil)
+            {
+            
+               NSArray *coldDrinkIngridients = [[NSArray alloc] initWithObjects:@"cold water", @"kool aid", nil];
+               [koolAid setIngredients:coldDrinkIngridients];
+            
+            
+               NSString *coldDrinkInsturctions = @"Make sure to mix throughly to get the best flavor";
+               [koolAid setInstructions:coldDrinkInsturctions];
+            
+               NSLog(@"You have just made some good ol kool aid " "with the ingridients %@", [koolAid ingredients]);
+            
+               NSLog(@"%@", koolAid.instructions);
+            
+               [koolAid calculateMakeTime];
+            }// end if
+         }
+      }
+   
+   
    }
    
   

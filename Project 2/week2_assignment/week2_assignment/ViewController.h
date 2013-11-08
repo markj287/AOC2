@@ -18,6 +18,7 @@
    IBOutlet UIButton *hotDrinkBtn;
    IBOutlet UIButton *blendidDrinkBtn;
    IBOutlet UIButton *calculateBtn;
+   int currentValue;
 }
 
 -(IBAction)onClick:(id)sender;
