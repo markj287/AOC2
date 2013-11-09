@@ -16,6 +16,7 @@
    IBOutlet UIStepper *quantityStepper;
    IBOutlet UIButton *coldDrinkBtn;
    IBOutlet UIButton *infoBtn;
+   IBOutlet UISegmentedControl *segmentControl;
    IBOutlet UIButton *hotDrinkBtn;
    IBOutlet UIButton *blendidDrinkBtn;
    IBOutlet UIButton *calculateBtn;

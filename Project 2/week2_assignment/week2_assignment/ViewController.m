@@ -131,7 +131,7 @@
           SecondViewController *viewController = [[SecondViewController alloc] initWithNibName:@"SecondView" bundle:nil];
             if(viewController != nil )
             {
-               [self presentModalViewController:viewController animated:true];
+               [self presentViewController:viewController animated:true completion:nil];
             }
       
             infoBtn.enabled = true;
@@ -143,8 +143,31 @@
 
 -(IBAction)onChange:(id)sender
 {
-    UIButton *button = (UIButton*)sender;
+   UIButton *button = (UIButton*)sender;
+   
+   if(button.tag == 0)
+   {
+      UISegmentedControl *segControl = (UISegmentedControl*)sender;
+      if (segControl != nil)
+      {
+         int selectedIndex = segControl.selectedSegmentIndex;
+         
+         if (selectedIndex == 0)
+         {
+            self.view.backgroundColor = [UIColor grayColor];
+         }
+         else if(selectedIndex == 1)
+         {
+            self.view.backgroundColor = [UIColor blueColor];
+         }
+         else if (selectedIndex == 2)
+         {
+            self.view.backgroundColor = [UIColor greenColor ];
+         }
+      }
+   }
 
+   
 }
 
 

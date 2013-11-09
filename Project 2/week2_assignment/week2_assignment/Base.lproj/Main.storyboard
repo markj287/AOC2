@@ -70,7 +70,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TIo-Vg-VmI">
-                                <rect key="frame" x="20" y="376" width="280" height="30"/>
+                                <rect key="frame" x="20" y="325" width="280" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.13677248755984384" green="1" blue="0.84940329062864173" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Calculate Time">
@@ -88,7 +88,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Chb-e3-bnz">
-                                <rect key="frame" x="20" y="444" width="22" height="22"/>
+                                <rect key="frame" x="278" y="380" width="22" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal">
@@ -98,6 +98,18 @@
                                     <action selector="onClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Tpz-4s-yaF"/>
                                 </connections>
                             </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="bD4-Q5-kgn">
+                                <rect key="frame" x="20" y="438" width="280" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="grey"/>
+                                    <segment title="Second"/>
+                                    <segment title="green"/>
+                                </segments>
+                                <connections>
+                                    <action selector="onChange:" destination="vXZ-lx-hvc" eventType="valueChanged" id="uxZ-3O-Wpg"/>
+                                </connections>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" red="0.73820593728900463" green="0.73291308137166733" blue="0.77460512907608692" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -110,6 +122,7 @@
                         <outlet property="infoBtn" destination="Chb-e3-bnz" id="iaI-Fs-HVr"/>
                         <outlet property="quantityStepper" destination="auG-3O-9TB" id="2Hb-81-2Kd"/>
                         <outlet property="result" destination="Uzm-qB-BDt" id="J8j-QE-llg"/>
+                        <outlet property="segmentControl" destination="bD4-Q5-kgn" id="y9h-ED-RJ7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
