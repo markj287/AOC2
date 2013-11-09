@@ -154,15 +154,15 @@
          
          if (selectedIndex == 0)
          {
-            self.view.backgroundColor = [UIColor grayColor];
+            self.view.backgroundColor = [UIColor colorWithRed:0.925 green:0.941 blue:0.945 alpha:1];
          }
          else if(selectedIndex == 1)
          {
-            self.view.backgroundColor = [UIColor blueColor];
+            self.view.backgroundColor = [UIColor colorWithRed:0.902 green:0.494 blue:0.133 alpha:1];
          }
          else if (selectedIndex == 2)
          {
-            self.view.backgroundColor = [UIColor greenColor ];
+            self.view.backgroundColor = [UIColor colorWithRed:0.204 green:0.286 blue:0.369 alpha:1];
          }
       }
    }
