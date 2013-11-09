@@ -131,9 +131,7 @@
           SecondViewController *viewController = [[SecondViewController alloc] initWithNibName:@"SecondView" bundle:nil];
             if(viewController != nil )
             {
-                //viewController.delegate = self;
-                [self presentViewController:viewController animated:TRUE completion:nil];
-                
+               [self presentModalViewController:viewController animated:true];
             }
       
             infoBtn.enabled = true;
