@@ -165,6 +165,19 @@
             self.view.backgroundColor = [UIColor colorWithRed:0.204 green:0.286 blue:0.369 alpha:1];
          }
       }
+   
+      else if (button.tag == 6)
+      {
+         UIStepper *stepControl = (UIStepper*) sender;
+      
+         if (stepControl != nil)
+         {
+            int currentValue = stepControl.value;
+         
+            stepperVal.text = [NSString stringWithFormat:@"%d", currentValue];
+         }
+      }
+   
    }
 
    

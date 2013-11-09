@@ -23,7 +23,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="auG-3O-9TB">
+                            <stepper opaque="NO" clipsSubviews="YES" tag="6" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="auG-3O-9TB">
                                 <rect key="frame" x="113" y="117" width="94" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                             </stepper>
@@ -110,6 +110,15 @@
                                     <action selector="onChange:" destination="vXZ-lx-hvc" eventType="valueChanged" id="uxZ-3O-Wpg"/>
                                 </connections>
                             </segmentedControl>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="faw-Qy-E71">
+                                <rect key="frame" x="215" y="117" width="85" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="onChange:" destination="vXZ-lx-hvc" eventType="valueChanged" id="Rz1-rW-Plp"/>
+                                </connections>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.73820593728900463" green="0.73291308137166733" blue="0.77460512907608692" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -123,6 +132,7 @@
                         <outlet property="quantityStepper" destination="auG-3O-9TB" id="2Hb-81-2Kd"/>
                         <outlet property="result" destination="Uzm-qB-BDt" id="J8j-QE-llg"/>
                         <outlet property="segmentControl" destination="bD4-Q5-kgn" id="y9h-ED-RJ7"/>
+                        <outlet property="stepperVal" destination="faw-Qy-E71" id="C0h-Da-baa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
