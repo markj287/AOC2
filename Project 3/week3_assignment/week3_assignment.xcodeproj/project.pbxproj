@@ -21,6 +21,8 @@
 		8F114EAE1834270B00E84829 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F114E901834270B00E84829 /* UIKit.framework */; };
 		8F114EB61834270B00E84829 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F114EB41834270B00E84829 /* InfoPlist.strings */; };
 		8F114EB81834270B00E84829 /* week3_assignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F114EB71834270B00E84829 /* week3_assignmentTests.m */; };
+		8F114EC218342BF300E84829 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F114EC118342BF300E84829 /* SecondView.xib */; };
+		8F114EC6183430EB00E84829 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F114EC4183430EB00E84829 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		8F114EB31834270B00E84829 /* week3_assignmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "week3_assignmentTests-Info.plist"; sourceTree = "<group>"; };
 		8F114EB51834270B00E84829 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8F114EB71834270B00E84829 /* week3_assignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = week3_assignmentTests.m; sourceTree = "<group>"; };
+		8F114EC118342BF300E84829 /* SecondView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
+		8F114EC3183430EB00E84829 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		8F114EC4183430EB00E84829 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +124,9 @@
 				8F114EA21834270B00E84829 /* ViewController.m */,
 				8F114EA41834270B00E84829 /* Images.xcassets */,
 				8F114E931834270B00E84829 /* Supporting Files */,
+				8F114EC118342BF300E84829 /* SecondView.xib */,
+				8F114EC3183430EB00E84829 /* SecondViewController.h */,
+				8F114EC4183430EB00E84829 /* SecondViewController.m */,
 			);
 			path = week3_assignment;
 			sourceTree = "<group>";
@@ -230,6 +238,7 @@
 			files = (
 				8F114EA51834270B00E84829 /* Images.xcassets in Resources */,
 				8F114E971834270B00E84829 /* InfoPlist.strings in Resources */,
+				8F114EC218342BF300E84829 /* SecondView.xib in Resources */,
 				8F114EA01834270B00E84829 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F114EC6183430EB00E84829 /* SecondViewController.m in Sources */,
 				8F114EA31834270B00E84829 /* ViewController.m in Sources */,
 				8F114E9D1834270B00E84829 /* AppDelegate.m in Sources */,
 				8F114E991834270B00E84829 /* main.m in Sources */,
