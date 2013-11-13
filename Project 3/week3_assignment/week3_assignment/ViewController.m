@@ -19,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+   eventListTxt.text = @"Add Event Here.";
+   [self.view addSubview:eventListTxt];
 }
 
 - (void)didReceiveMemoryWarning
