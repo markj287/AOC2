@@ -1,6 +1,6 @@
 //
-//  week3_AssignmenrTests.m
-//  week3_AssignmenrTests
+//  week3_assignmentTests.m
+//  week3_assignmentTests
 //
 //  Created by Mark Johnson on 11/13/13.
 //  Copyright (c) 2013 Mark Johnson. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface week3_AssignmenrTests : XCTestCase
+@interface week3_assignmentTests : XCTestCase
 
 @end
 
-@implementation week3_AssignmenrTests
+@implementation week3_assignmentTests
 
 - (void)setUp
 {

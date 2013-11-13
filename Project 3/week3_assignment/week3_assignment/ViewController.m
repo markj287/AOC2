@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  week3_Assignmenr
+//  week3_assignment
 //
 //  Created by Mark Johnson on 11/13/13.
 //  Copyright (c) 2013 Mark Johnson. All rights reserved.
