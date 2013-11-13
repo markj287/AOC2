@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface SecondViewController : UIViewController
+{
+   IBOutlet UIButton *closeKeyboard;
+   IBOutlet UITextField *eventTitle;
+   IBOutlet UIDatePicker *datePicker;
+   IBOutlet UIButton *saveButton;
+}
 
 @end
