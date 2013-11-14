@@ -35,7 +35,7 @@
    
    if (viewController != nil)
    {
-      SecondViewController.delegate = self;
+      viewController.delegate = self;
       [self presentViewController:viewController animated:TRUE completion:nil];
 
    }
