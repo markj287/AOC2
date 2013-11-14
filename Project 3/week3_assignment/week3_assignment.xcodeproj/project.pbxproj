@@ -23,6 +23,8 @@
 		8F114EB81834270B00E84829 /* week3_assignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F114EB71834270B00E84829 /* week3_assignmentTests.m */; };
 		8F114EC218342BF300E84829 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F114EC118342BF300E84829 /* SecondView.xib */; };
 		8F114EC6183430EB00E84829 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F114EC4183430EB00E84829 /* SecondViewController.m */; };
+		8FD4530418351D3500B6B98A /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F114EC118342BF300E84829 /* SecondView.xib */; };
+		8FD4530518351D4100B6B98A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F114E9E1834270B00E84829 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -247,6 +249,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FD4530518351D4100B6B98A /* Main.storyboard in Resources */,
+				8FD4530418351D3500B6B98A /* SecondView.xib in Resources */,
 				8F114EB61834270B00E84829 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,6 +474,7 @@
 				8F114EBD1834270B00E84829 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F114EBE1834270B00E84829 /* Build configuration list for PBXNativeTarget "week3_assignmentTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +483,7 @@
 				8F114EC01834270B00E84829 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
