@@ -43,7 +43,6 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.98039221759999995" green="1" blue="0.91372555489999996" alpha="1" colorSpace="deviceRGB"/>
                     </view>
                     <connections>
                         <outlet property="addEventBtn" destination="sgB-cK-6pn" id="BtT-0g-d6h"/>

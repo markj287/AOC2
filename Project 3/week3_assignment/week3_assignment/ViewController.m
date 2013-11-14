@@ -40,4 +40,18 @@
    }
 }
 
+-(void)wasSaved:(NSString*)eventTitle dateString:(NSString*)date
+{
+   if([eventListTxt.text isEqualToString:@"All Events go here."])
+   {
+      eventListTxt.text = [NSString stringWithFormat:@"%@ \n%@", eventTitle, date];
+      NSLog(@"First event saved. Date=%@",date);
+   }
+   else
+   {
+      eventListTxt.text = [eventListTxt.text stringByAppendingFormat:@"\n\nNew Event:\n%@ \n%@", eventTitle, date];
+      NSLog(@"Saved all other events");
+   }
+}
+
 @end

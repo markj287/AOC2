@@ -119,14 +119,14 @@
 			children = (
 				8F114E9B1834270B00E84829 /* AppDelegate.h */,
 				8F114E9C1834270B00E84829 /* AppDelegate.m */,
-				8F114E9E1834270B00E84829 /* Main.storyboard */,
 				8F114EA11834270B00E84829 /* ViewController.h */,
 				8F114EA21834270B00E84829 /* ViewController.m */,
+				8F114E9E1834270B00E84829 /* Main.storyboard */,
 				8F114EA41834270B00E84829 /* Images.xcassets */,
 				8F114E931834270B00E84829 /* Supporting Files */,
-				8F114EC118342BF300E84829 /* SecondView.xib */,
 				8F114EC3183430EB00E84829 /* SecondViewController.h */,
 				8F114EC4183430EB00E84829 /* SecondViewController.m */,
+				8F114EC118342BF300E84829 /* SecondView.xib */,
 			);
 			path = week3_assignment;
 			sourceTree = "<group>";
