@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "AddEventViewController.h"
+#import "EventSingleton.h"
+
 
 @interface ViewController ()
 

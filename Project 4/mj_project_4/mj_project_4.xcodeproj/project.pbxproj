@@ -21,6 +21,9 @@
 		8F17153D183CF504002FD337 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F17151F183CF503002FD337 /* UIKit.framework */; };
 		8F171545183CF504002FD337 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F171543183CF504002FD337 /* InfoPlist.strings */; };
 		8F171547183CF504002FD337 /* mj_project_4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F171546183CF504002FD337 /* mj_project_4Tests.m */; };
+		8F171553183CF6FF002FD337 /* AddEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F171551183CF6FF002FD337 /* AddEventViewController.m */; };
+		8F171557183CF72F002FD337 /* EventSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F171556183CF72F002FD337 /* EventSingleton.m */; };
+		8F171559183CF78F002FD337 /* AddEvent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F171558183CF78F002FD337 /* AddEvent.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,11 @@
 		8F171542183CF504002FD337 /* mj_project_4Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mj_project_4Tests-Info.plist"; sourceTree = "<group>"; };
 		8F171544183CF504002FD337 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8F171546183CF504002FD337 /* mj_project_4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mj_project_4Tests.m; sourceTree = "<group>"; };
+		8F171550183CF6FF002FD337 /* AddEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEventViewController.h; sourceTree = "<group>"; };
+		8F171551183CF6FF002FD337 /* AddEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEventViewController.m; sourceTree = "<group>"; };
+		8F171555183CF72F002FD337 /* EventSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventSingleton.h; sourceTree = "<group>"; };
+		8F171556183CF72F002FD337 /* EventSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventSingleton.m; sourceTree = "<group>"; };
+		8F171558183CF78F002FD337 /* AddEvent.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddEvent.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +127,11 @@
 				8F171531183CF503002FD337 /* ViewController.m */,
 				8F171533183CF503002FD337 /* Images.xcassets */,
 				8F171522183CF503002FD337 /* Supporting Files */,
+				8F171550183CF6FF002FD337 /* AddEventViewController.h */,
+				8F171551183CF6FF002FD337 /* AddEventViewController.m */,
+				8F171555183CF72F002FD337 /* EventSingleton.h */,
+				8F171556183CF72F002FD337 /* EventSingleton.m */,
+				8F171558183CF78F002FD337 /* AddEvent.xib */,
 			);
 			path = mj_project_4;
 			sourceTree = "<group>";
@@ -228,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F171559183CF78F002FD337 /* AddEvent.xib in Resources */,
 				8F171534183CF503002FD337 /* Images.xcassets in Resources */,
 				8F171526183CF503002FD337 /* InfoPlist.strings in Resources */,
 				8F17152F183CF503002FD337 /* Main.storyboard in Resources */,
@@ -250,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F171532183CF503002FD337 /* ViewController.m in Sources */,
+				8F171557183CF72F002FD337 /* EventSingleton.m in Sources */,
+				8F171553183CF6FF002FD337 /* AddEventViewController.m in Sources */,
 				8F17152C183CF503002FD337 /* AppDelegate.m in Sources */,
 				8F171528183CF503002FD337 /* main.m in Sources */,
 			);
